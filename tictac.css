@@ -1,0 +1,45 @@
+.row {
+    display: flex;
+    justify-content: center; 
+}
+
+.xo_button {
+    width:50px;
+    height:100px;
+    border: 1px solid black;
+    padding: 50px;
+    text-align:center;
+    font-size:50px;
+    font-weight: bold;
+}
+
+
+.xo_button:hover {
+    background-color: grey ;
+}
+
+
+
+/*borders*/
+body{
+    text-align: center; 
+}
+
+.button-b-top{
+    border-top:none;
+}
+
+.button-b-bottom{
+    border-bottom:none;
+}
+.button-b-right{
+    border-right:none;
+}
+
+.button-b-left{
+    border-left:none;
+}
+
+.gameContainer {
+    background-image: linear-gradient(to bottom, pink, yellow, orange);
+}
